@@ -1,3 +1,3 @@
-# Skin_Titian_PseudoTV_Live
+# Skin_Titian
 
 Skin for Pseudo_TV Live
