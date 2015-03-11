@@ -1,0 +1,2 @@
+
+Copy the two folders "720"and "Media"  into the root of Pseudo_TV Live under folder "Custom".
