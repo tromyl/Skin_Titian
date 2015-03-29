@@ -13,10 +13,10 @@
         <!-- Loading... Channel info label -->
         <control type="image" id="103">
             <description>Channel Bug</description>
-            <posx>50</posx>
-            <posy>-10</posy>
-            <width>180</width>
-            <height>180</height>
+            <posx>-8150r</posx>
+            <posy>125r</posy>
+            <width>100</width>
+            <height>100</height>
             <aspectratio>keep</aspectratio>
             <texture></texture>
             <animation effect="fade" start="40" end="40" condition="True">Conditional</animation>
@@ -30,18 +30,18 @@
             <animation effect="fade" time="500">VisibleChange</animation> 
             <control type="image">
                 <description>Info Background Image</description>
-                <posx>-30</posx>
-                <posy>495</posy>
-                <width>1340</width>
-                <height>220</height>
+                <posx>0</posx>
+                <posy>485</posy>
+                <width>1280</width>
+                <height>230</height>
                 <texture>pstvlInfoWindow.png</texture>
             </control>
 			  <control type="image">
                 <description>Info Background Image</description>
-                <posx>0</posx>
-                <posy>518</posy>
-                <width>1280</width>
-                <height>165</height>
+                <posx>25</posx>
+                <posy>510</posy>
+                <width>1230</width>
+                <height>173</height>
                 <texture>220.png</texture>
             </control>  
             <!-- landscape Window --!>   
@@ -95,9 +95,9 @@
             
             <!--line 1 -->
             <control type="grouplist">
-                <posx>300</posx>
-                <posy>525</posy>
-                <width>1050</width>
+                <posx>335</posx>
+                <posy>515</posy>
+                <width>950</width>
                 <height>50</height>
                 <align>left</align>
                 <aligny>bottom</aligny>
@@ -140,7 +140,7 @@
                     <width min="5" max="600">auto</width>
                     <height>30</height>
                     <label></label>
-                    <font>font14</font>
+                    <font>font12</font>
                     <align>left</align>
                     <aligny>center</aligny>
                     <textcolor>FFFFFFFF</textcolor>
@@ -149,8 +149,8 @@
             </control>
             <control type="label" id="505">
                 <description>Show Description</description>
-                <posx>300</posx>
-                <posy>580</posy>
+                <posx>335</posx>
+                <posy>560</posy>
                 <width>700</width>
                 <height>80</height>
                 <align>left</align>
@@ -158,12 +158,12 @@
                 <wrapmultiline>true</wrapmultiline>
                 <label></label>
                 <textcolor>FFFFFFFF</textcolor>
-                <font>font12</font>
+                <font>font14</font>
             </control>
 		<control type="image" id="508">
             <description>Dynamic art</description><!-- Calls art by label given-->
-            <posx>7</posx>
-            <posy>528</posy>
+            <posx>40</posx>
+            <posy>520</posy>
             <width>250</width>
             <height>150</height>
 			<aspectratio align="center" aligny="center" scalediffuse="false">stretch</aspectratio>
@@ -171,7 +171,7 @@
 		</control>
 		  <control type="button" id="507">
             <description>Dynamic art</description>
-            <label>landscape</label>
+            <label>clearart</label>
             <visible>false</visible>
         </control>
 <!--line 3 logos-->
@@ -275,8 +275,8 @@
         <control type="group" id="515">  
             <visible></visible>
             <control type="progress">
-                <posx>300</posx>
-                <posy>570</posy>
+                <posx>335</posx>
+                <posy>550</posy>
                 <width>700</width>
                 <height>3</height>
                 <texturebg>seek/progress_back.png</texturebg>
@@ -286,8 +286,8 @@
                 <info>Player.ProgressCache</info>
             </control>
             <control type="progress">
-                <posx>300</posx>
-                <posy>570</posy>
+                <posx>335</posx>
+                <posy>550</posy>
                 <width>700</width>
                 <height>3</height>
                 <texturebg>seek/progresscache_back.png</texturebg>
@@ -298,7 +298,7 @@
             </control> 
         </control>             
         <control type="grouplist">
-            <posx>570</posx>
+            <posx>560</posx>
             <posy>670</posy>
             <width>1280</width>
             <height>50</height>
@@ -353,18 +353,18 @@
          <control type="label">
             <description>time</description>
             <posx>1155</posx>
-            <posy>525</posy>
+            <posy>515</posy>
             <width>100</width>
             <height>3</height>
             <label>$INFO[System.Time(ii:mm)]</label>
-            <font>font14</font>
+            <font>font16</font>
             <align>left</align>
             <textcolor>FF0297eb</textcolor>
         </control>
 		
 		  <control type="image" id="506">
 		  <posx>1150</posx>
-            <posy>570</posy>
+            <posy>655</posy>
                 <width>90</width>
                 <height>90</height>
                 <aspectratio>keep</aspectratio>
@@ -372,27 +372,27 @@
             </control>
 			  <control type="label" id="513">
             <description>Weather</description>
-            <posx>1225</posx>
-            <posy>690</posy>
+            <posx>1215</posx>
+            <posy>640</posy>
             <width min="40" max="100">auto</width>
             <height>30</height>
             <label>$INFO[Weather.Temperature]</label>
-            <font>font12</font>
+            <font>font16</font>
             <align>right</align>
-            <textcolor>FF000000</textcolor>
+            <textcolor>white</textcolor>
         </control>
 		    <control type="image" id="800">
-            <posx>1130</posx>
-            <posy>680</posy>
-            <width>50</width>
-            <height>40</height>
+            <posx>1150</posx>
+            <posy>560</posy>
+            <width>70</width>
+            <height>70</height>
             <aspectratio align="center">keep</aspectratio>
             <info>Window(weather).Property(Current.ConditionIcon)</info>
         </control>
         
         <!--Bottom bar-->   
         <control type="grouplist">
-	        <posx>8</posx>
+	        <posx>48</posx>
             <posy>685</posy>
             <align>left</align>
             <orientation>horizontal</orientation>
@@ -406,6 +406,7 @@
                 <aligny>bottom</aligny>
                 <scroll>true</scroll>
                 <scrollsuffix>  •    </scrollsuffix>
+                <visible>!Skin.HasSetting(disable.rss)</visible>
                 <visible>Control.IsVisible(515)</visible>
                 <textcolor>black</textcolor>
                 <autoscroll time="1000" delay="1000" repeat="0">True</autoscroll>
@@ -420,6 +421,7 @@
                 <aligny>bottom</aligny>
                 <scroll>true</scroll>
                 <scrollsuffix>  •    </scrollsuffix>
+                <visible>!Skin.HasSetting(disable.rss)</visible>
                 <visible>Control.IsVisible(515)</visible>
                 <textcolor>black</textcolor>
                 <autoscroll time="1000" delay="1000" repeat="0">True</autoscroll>
